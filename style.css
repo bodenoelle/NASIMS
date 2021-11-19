@@ -1,3 +1,58 @@
-@media screen and (min-width: 991px) {
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fff;
+}
+
+#ending {
+    background-color: #07321b;
+}
+
+
+
+/* MEDIA QUERY FOR DESKTOP */
+
+    @media screen and ( max-width: 991px) {
+
+    #mq1 {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7), #000), url(/Woman\ Farming.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        justify-content: center;
+        overflow-x: hidden;
+        
+    }
+    .woman {
+        display: none;
+    }
+    #mq2 {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7), #000), url(/Lady\ with\ headphones.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        justify-content: center;
+        overflow-x: hidden;
+        
+    }
+    .lady {
+        display: none;
+    }
+    #mq3 {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7), #000), url(/Children.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        justify-content: center;
+        overflow-x: hidden;
+        
+    }
+    .kids {
+        display: none;
+    }
+    
+     
+    
+    
+    
     
 }
